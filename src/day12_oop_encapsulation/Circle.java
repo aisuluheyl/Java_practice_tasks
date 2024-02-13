@@ -2,7 +2,45 @@ package day12_oop_encapsulation;
 
 public class Circle {
 
-    int radius;
+      private double radius;
+
+   public Circle(double radius) {
+      setRadius(radius);
+   }
+
+   public double getRadius(){
+      if(radius <= 0){
+         System.err.println("The radius can not be 0 or negative number");
+         System.exit(1);
+      }
+      return radius;
+   }
+
+   public void setRadius(double radius) {
+      if (radius <= 0) {
+         System.err.println("The radius can not be 0 or negative number");
+         System.exit(1);
+      }
+      this.radius = radius;
+   }
+
+
+   public String toString() {
+      return "Circle{" +
+              "radius=" + radius +
+              ", area=" + calcArea() +
+              ", perimeter=" + calcPerimeter() +
+              '}';
+   }
+
+   public double calcArea(){
+      return Math.pow(radius, 2) * Math.PI;
+   }
+
+   public double calcPerimeter(){
+      return Math.pow(radius, 2) * Math.PI;
+   }
+
 
 }
 /*
