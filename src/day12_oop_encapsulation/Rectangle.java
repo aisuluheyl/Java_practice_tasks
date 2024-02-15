@@ -11,7 +11,7 @@ public class Rectangle {
     }
 
     public double getWidth() {
-        if (width < 0) {
+        if (width <= 0) {
             System.err.println("Invalid");
         }
         return width;
@@ -26,7 +26,7 @@ public class Rectangle {
     }
 
     public double getLength() {
-        if (length < 0) {
+        if (length <= 0) {
             System.err.println("Invalid");
         }
         return length;
