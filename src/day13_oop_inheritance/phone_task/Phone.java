@@ -13,7 +13,7 @@ public class Phone {
     }
 
     public Phone(String brand, String model, String size, double price, String color) {
-        setBrand(brand);
+        setBrand(getClass().getSimpleName());
         setModel(model);
         setSize(size);
         setPrice(price);
@@ -25,6 +25,7 @@ public class Phone {
             System.err.println("The brand can not be blank");
             System.exit(1);
         }
+
         this.brand = brand;
     }
 
@@ -84,7 +85,7 @@ public class Phone {
 
     @Override
     public String toString() {
-        return getClass().getSimpleName() +"{" +
+        return getClass().getSimpleName() +" {" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", size='" + size + '\'' +
