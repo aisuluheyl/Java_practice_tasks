@@ -4,7 +4,7 @@ public class PhoneClients {
 
     public static void main(String[] args) {
 
-        IPhone iphone1 = new IPhone("IPhone", "13", "Pro",1099, "Midnight Green");
+        IPhone iphone1 = new IPhone( "13", "Pro",1099, "Midnight Green");
 
         System.out.println();
         System.out.println(iphone1);
@@ -15,7 +15,7 @@ public class PhoneClients {
 
         System.out.println();
 
-        IPhone iphone2 = new IPhone("IPhone", "14", "Max", 1199, "Silver");
+        IPhone iphone2 = new IPhone( "14", "Max", 1199, "Silver");
 
         System.out.println(iphone2);
         System.out.println();
@@ -25,7 +25,7 @@ public class PhoneClients {
 
         System.out.println("-----------------------------------------------------------------------");
 
-        Samsung samsung1 = new Samsung("Samsung", "Galaxy S24", "Regular", 1299, "Black");
+        Samsung samsung1 = new Samsung( "Galaxy S24", "Regular", 1299, "Black");
 
         System.out.println();
         System.out.println(samsung1);
@@ -36,7 +36,7 @@ public class PhoneClients {
 
         System.out.println();
 
-        Samsung samsung2 = new Samsung("Samsung", "Galaxy S22", "Large", 1199, "White");
+        Samsung samsung2 = new Samsung( "Galaxy S22", "Large", 1199, "White");
 
         System.out.println(samsung2);
         System.out.println();
@@ -46,7 +46,7 @@ public class PhoneClients {
 
         System.out.println("------------------------------------------------------------");
 
-        Nokia nokia1 = new Nokia("Nokia", "N93", "Standard", 199, "Navy");
+        Nokia nokia1 = new Nokia( "N93", "Standard", 199, "Navy");
 
         System.out.println(nokia1);
         System.out.println();
@@ -56,7 +56,7 @@ public class PhoneClients {
 
         System.out.println();
 
-        Nokia nokia2 = new Nokia("Nokia", "6410", "Small", 245, "Charcoal");
+        Nokia nokia2 = new Nokia( "6410", "Small", 245, "Charcoal");
 
         System.out.println(nokia2);
         System.out.println();
