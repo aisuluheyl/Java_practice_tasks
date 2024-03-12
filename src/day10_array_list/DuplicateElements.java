@@ -13,9 +13,6 @@ public class DuplicateElements {
 
         System.out.println(list);
 
-
-
-
     }
 }
 /*
